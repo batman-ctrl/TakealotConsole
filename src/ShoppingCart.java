@@ -11,5 +11,6 @@ public class ShoppingCart {
     public void addProduct(Product product){
         cartItems.add(product);
         System.out.println(product.getName()+" has been added to your cart.");
+
     }
 }
